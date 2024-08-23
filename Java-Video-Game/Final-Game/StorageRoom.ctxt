@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StorageRoom
+comment0.text=\r\n\ This\ world\ contains\ a\ CityGuard1,\ many\ Container()\ and\ EmptyContainer()\ objects,\r\n\ CollectibleSilverKnife()\ objects,\ and\ a\ Door().\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 11,\ 2022\r\n
+comment1.params=
+comment1.target=StorageRoom()
+comment1.text=\r\n\ This\ constructor\ sets\ the\ world\ size\ and\ calls\ the\ prepare()\ method.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ act\ method\ decrements\ the\ timeCounter\ variable\ and\ displays\ it\r\n\ on\ the\ screen\ and\ contains\ other\ methods.\r\n
+comment3.params=
+comment3.target=void\ showGameOver()
+comment3.text=\r\n\ This\ method\ shows\ a\ game\ over\ screen\ if\ the\ player's\ time\ runs\ out.\r\n
+comment4.params=
+comment4.target=void\ showSecondsPassed()
+comment4.text=\r\n\ This\ method\ turns\ the\ cycleCount\ into\ a\ readable\ timer\ measured\ in\r\n\ seconds.\r\n
+comment5.params=
+comment5.target=void\ prepare()
+comment5.text=\r\n\ Adds\ walls,\ containers,\ a\ city\ guard,\ silver\ knives,\ and\ a\ door\ to\ the\r\n\ world.\r\n
+numComments=6

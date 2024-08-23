@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Werewolf
+comment0.text=\r\n\ The\ Werewolf\ (also\ known\ as\ the\ "Wolf\ Man"),\ is\ the\ antagonistic\ character\r\n\ that\ attacks\ CityGuard2.\ It\ can\ be\ damaged\ by\ knives.\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 11,\ 2022\r\n\ \r\n\ Source\ for\ Werewolf's\ sprite\ &\ animations\:\r\n\ https\://www.spriters-resource.com/snes/zombiesneighbours/sheet/31620/\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Werewolf\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ lookForCityGuard()
+comment2.text=\r\n\ This\ method\ allows\ the\ Werewolf()\ to\ touch\ the\ player\ and\ then\ show\ a\r\n\ fail\ screen.\r\n
+comment3.params=
+comment3.target=void\ moveRandomly()
+comment3.text=\r\n\ This\ method\ enables\ Werewolf()\ to\ move\ in\ random\ directions\ at\ a\ quick\r\n\ speed.\r\n
+comment4.params=
+comment4.target=void\ isTouchingKnife()
+comment4.text=\r\n\ This\ method\ is\ used\ to\ detect\ whether\ or\ not\ a\ SilverKnife\ is\ touching\r\n\ the\ Werewolf.\ If\ so,\ it's\ health\ (life)\ is\ decremented\ by\ 10.\ If\ it\ reaches\r\n\ 0,\ the\ WinScreen()\ world\ will\ appear.\r\n\ \r\n\ Source\ for\ "wolfhurt"\:\r\n\ https\://www.youtube.com/shorts/BuyfRCGtMZY\r\n
+numComments=5

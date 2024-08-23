@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Pillar
+comment0.text=\r\n\ This\ class\ acts\ as\ a\ physical\ obstable\ that\ CityGuard2(),\ Werewolf(),\ and\ \r\n\ knives\ cannot\ pass\ through.\ When\ a\ knife\ collides\ with\ this\ object,\ it\r\n\ disappears.\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 11,\ 2022\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Pillar\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2

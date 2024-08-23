@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CityGuard2
+comment0.text=\r\n\ CityGuard2\ is\ the\ player-character\ that\ fights\ the\ Werewolf\ by\ throwing\ knives\ at\ \r\n\ it\ in\ stage\ II\ (\ Courtyard()\ ).\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 11,\ 2022\r\n\ \r\n\ Source\ for\ CityGuard's\ sprite\ &\ animations\:\r\n\ https\://opengameart.org/content/lpc-medieval-fantasy-character-sprites\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ CityGuard\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ checkKeyPress()
+comment2.text=\r\n\ This\ method\ is\ used\ to\ assign\ keyboard\ inputs\ by\ the\ user\ to\ certain\r\n\ actions\ of\ CityGuard\ such\ as\ walking\ and\ throwing\ knives.\r\n
+comment3.params=
+comment3.target=void\ throwKnife()
+comment3.text=\r\n\ This\ method\ allows\ the\ player\ to\ throw\ knives\ up,\ down,\ left,\ and\ right\r\n\ by\ using\ the\ arrow\ keys.\r\n\ \r\n\ Source\ for\ "throw.wav"\:\r\n\ https\://www.youtube.com/watch?v\=jhfbDIRYVro\r\n
+comment4.params=
+comment4.target=void\ getKnivesThrown()
+comment4.text=\r\n\ This\ method\ checks\ to\ see\ if\ the\ player\ has\ thrown\ all\ 10\ knives\ before\r\n\ defeating\ the\ Werewolf.\ If\ the\ Werewolf\ hasn't\ been\ defeated,\ a\ lose\r\n\ screen\ will\ appear\ and\ prompt\ the\ user\ to\ try\ again\ or\ quit.\r\n
+numComments=5

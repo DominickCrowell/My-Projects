@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StartScreen
+comment0.text=\r\n\ This\ world\ is\ a\ simple\ start\ screen\ that\ accepts\ "enter"\ as\ a\ keyboard\ input.\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 11,\ 2022\r\n
+comment1.params=
+comment1.target=StartScreen()
+comment1.text=\r\n\ This\ constructor\ sets\ the\ world\ size.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ contains\ code\ for\ entering\ keyboard\ inputs\ in\ order\ to\ navigate\ to\ different\ screens.\r\n
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CollectibleSilverKnife
+comment0.text=\r\n\ This\ class\ acts\ as\ a\ collectible\ knife\ for\ CityGuard1\ (player-character)\ to\r\n\ pick\ up.\ This\ version\ of\ SilverKnife\ does\ not\ move\ in\ any\ direction.\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 11,\ 2022\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ CollectibleSilverKnife\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2

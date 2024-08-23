@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Container
+comment0.text=\r\n\ This\ container\ contains\ a\ CollectibleSilverKnife().\ When\ CityGuard1\ touches\ it,\r\n\ it\ disappears\ and\ gives\ a\ knife\ to\ the\ player.\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 11,\ 2022\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Container\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2

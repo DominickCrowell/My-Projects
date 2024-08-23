@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CityGuard1
+comment0.text=\r\n\ CityGuard1\ is\ the\ player-character\ that\ walks\ around\ collecting\ knives\ in\r\n\ the\ stage\ I\ (\ StorageRoom()\ ).\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 11,\ 2022\r\n\ \r\n\ Source\ for\ CityGuard's\ sprite\ &\ animations\:\r\n\ https\://opengameart.org/content/lpc-medieval-fantasy-character-sprites\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ CityGuard\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ checkKeyPress()
+comment2.text=\r\n\ This\ method\ is\ used\ to\ assign\ keyboard\ inputs\ by\ the\ user\ to\ certain\r\n\ actions\ of\ CityGuard\ such\ as\ walking\ and\ throwing\ knives.\r\n
+comment3.params=
+comment3.target=void\ lookForSilverKnife()
+comment3.text=\r\n\ This\ method\ is\ used\ to\ check\ if\ CityGuard\ is\ colliding\ with\ a\ Container,\r\n\ if\ so,\ knivesCollected\ is\ incremented\ by\ 1\ (until\ knivesCollected\ \=\=\ 10).\r\n\ \r\n\ Source\ for\ "knifecollected.wav"\:\r\n\ https\://www.youtube.com/watch?v\=zqujcCBgwkU\r\n
+comment4.params=
+comment4.target=void\ lookForDoor()
+comment4.text=\r\n\ This\ method\ allows\ the\ player\ to\ use\ the\ door\ to\ progress\ to\ the\ next\r\n\ stage\ once\ they\ have\ collected\ all\ 10\ knives.\r\n\ \r\n\ Source\ for\ "doorunlocking.wav"\:\r\n\ https\://www.youtube.com/watch?v\=92YfzPu3Ukc\r\n
+numComments=5

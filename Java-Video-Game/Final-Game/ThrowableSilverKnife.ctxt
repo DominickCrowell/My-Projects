@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ThrowableSilverKnife
+comment0.text=\r\n\ This\ knife\ moves\ in\ any\ direction\ until\ it\ collides\ with\ an\ object.\r\n\ \r\n\ @author\ croweld@email.uscb.edu\ \r\n\ @version\ Dec\ 10,\ 2022\r\n\ \r\n\ I\ used\ this\ video\ as\ a\ refresher\ before\ coding\ this\ section.\ The\ code\ I\ wrote\r\n\ here\ is\ mostly\ trial\ and\ error.\r\n\ https\://www.youtube.com/watch?v\=hRT-vi53cls&t\=133s\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ ThrowableSilverKnife\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n\ \r\n\ Source\ for\ "knifeimpact.wav"\:\r\n\ https\://www.youtube.com/watch?v\=8xgsADj_h80\r\n
+comment2.params=
+comment2.target=void\ checkKeyPress()
+numComments=3
