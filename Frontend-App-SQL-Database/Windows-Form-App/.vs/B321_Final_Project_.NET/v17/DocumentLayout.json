@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|c:\\users\\reple\\desktop\\b321team2 [new]\\frontend-app-sql-database\\windows-form-app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\academicyears.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:academicyears.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\locations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:locations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\officers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:officers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\eventattendees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:eventattendees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDF985F8-907E-4A30-B27D-E9EF0368D23E}|B321_Final_Project_.NET.csproj|solutionrelative:people.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Events.cs",
+              "RelativeDocumentMoniker": "Events.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Events.cs",
+              "RelativeToolTip": "Events.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:56:17.796Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AcademicYears.cs",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\AcademicYears.cs",
+              "RelativeDocumentMoniker": "AcademicYears.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\AcademicYears.cs",
+              "RelativeToolTip": "AcademicYears.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T21:31:25.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowC4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T03:22:14.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\b321team2\\(NEW) Frontend App\\B321_Final_Project_.NET\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\b321team2\\(NEW) Frontend App\\B321_Final_Project_.NET\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T21:32:50.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventAttendees.cs",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\EventAttendees.cs",
+              "RelativeDocumentMoniker": "EventAttendees.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\EventAttendees.cs",
+              "RelativeToolTip": "EventAttendees.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:56:23.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Officers.cs",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Officers.cs",
+              "RelativeDocumentMoniker": "Officers.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Officers.cs",
+              "RelativeToolTip": "Officers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:55:05.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T02:58:05.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Locations.cs",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Locations.cs",
+              "RelativeDocumentMoniker": "Locations.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\Locations.cs",
+              "RelativeToolTip": "Locations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T04:44:14.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "People.cs",
+              "DocumentMoniker": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\People.cs",
+              "RelativeDocumentMoniker": "People.cs",
+              "ToolTip": "C:\\Users\\reple\\Desktop\\b321team2 [NEW]\\Frontend-App-SQL-Database\\Windows-Form-App\\People.cs",
+              "RelativeToolTip": "People.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T14:55:35.134Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
