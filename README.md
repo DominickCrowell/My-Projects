@@ -1,5 +1,10 @@
 # My-Projects
 **Folders & Their Contents**
+- Brighten-Up-React-Web-App<br>
+  - This folder contains the Java code for the frontend and the backend of a responsive web app called Brighten Up. This web app allows users to post and rate appropriate motivational quotes as well as interact with an AI chat bot with select personalities.
+  - The frontend was coded and executed using Visual Studio Code, and the backend was coded and executed in Eclipse IDE 2024-12.
+  - I collaborated heavily with my amazing group partners Houston Henderson (CSCI Student at USCB) and Nicholas Butcher (CSCI Graduate from USCB) to complete this complex project.
+
 - Correlation-Test-Python-Project<br>
   - This folder contains the Python script, poster, and the data file pulled from the 2019 CDC Youth Risk Behavior Surveillance System statistics.
   - For our project, we hypothesized that there was a correlation between students being bullied and students using marijuana. 
