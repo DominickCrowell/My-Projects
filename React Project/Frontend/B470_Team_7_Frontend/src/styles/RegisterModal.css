@@ -1,0 +1,168 @@
+/* Dark Background Overlay */
+.register-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay works for both modes */
+  z-index: 1000;
+}
+
+/* Centered Register Container */
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999; /* Below card and overlay */
+}
+
+/* Register Card Styling */
+.register-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--background-color); /* Use theme background */
+  padding: 30px;
+  border-radius: 12px; /* Match InputQuoteBox.css */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Match InputQuoteBox.css */
+  text-align: center;
+  z-index: 1001;
+  width: 90%; /* Match InputQuoteBox.css */
+  max-width: 375px; /* Adjusted to match original width */
+  color: var(--text-color); /* Ensure text color matches theme */
+}
+
+.error {
+  color: #ff4d4d; /* Keep red for errors, consistent across themes */
+  font-size: 0.8em;
+  margin-top: 0.2em;
+}
+
+/* Header */
+.register-card h2 {
+  background: var(--button-bg); /* Use button background for header */
+  color: var(--button-text); /* Use button text color */
+  margin: -30px -30px 20px -30px;
+  padding: 10px;
+  border-top-left-radius: 12px; /* Match card border-radius */
+  border-top-right-radius: 12px;
+  border-bottom: 2px solid var(--mhd-input-border-focus); /* Use focus border color for underline */
+}
+
+/* Form Inputs and Select */
+.register-card input,
+.register-card select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--mhd-input-border); /* Use input border color */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: var(--input-bg); /* Use input background */
+  color: var(--text-color); /* Ensure text color matches theme */
+}
+
+.register-card input:focus,
+.register-card select:focus {
+  border-color: var(--mhd-input-border-focus); /* Focus border color */
+  outline: none;
+}
+
+/* Submit Button */
+.register-card button {
+  width: 100%;
+  padding: 10px;
+  background: var(--button-bg); /* Use button background */
+  color: var(--button-text); /* Use button text color */
+  border: 1px solid var(--button-border); /* Use new button border variable */
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.register-card button:hover {
+  border-color: var(--mhd-input-border-focus); /* Hover border matches focus color */
+}
+
+.register-card button:disabled {
+  background: var(--mhd-placeholder); /* Use placeholder color for disabled state */
+  cursor: not-allowed;
+  color: var(--text-color);
+  border-color: var(--mhd-input-border);
+}
+
+/* Login Link */
+.register-card p a {
+  color: var(--mhd-input-border-focus); /* Use focus color for links */
+  text-decoration: none;
+}
+
+.register-card p a:hover {
+  text-decoration: underline;
+  color: var(--button-bg); /* Hover matches button background */
+}
+
+/* Media Queries for Height Adjustments */
+@media (min-height: 950px) {
+  .register-card {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-height: 950px) {
+  .register-card {
+    transform: translate(-50%, -60%);
+  }
+}
+
+@media (max-height: 750px) {
+  .register-card {
+    transform: translate(-50%, -60%);
+  }
+}
+
+@media (max-height: 650px) {
+  .register-card {
+    transform: translate(-50%, -40%);
+  }
+}
+
+@media (max-height: 475px) {
+  .register-card {
+    transform: translate(-50%, -30%);
+  }
+}
+
+/* Responsive Adjustments for Width */
+@media (max-width: 480px) {
+  .register-card {
+    top: 50%; /* Adjusted to match InputQuoteBox.css */
+    width: 95%;
+    padding: 20px;
+  }
+
+  .register-card h2 {
+    margin: -20px -20px 15px -20px;
+    padding: 8px;
+    border-bottom: 2px solid var(--mhd-input-border-focus);
+  }
+
+  .register-card input,
+  .register-card select {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .register-card button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

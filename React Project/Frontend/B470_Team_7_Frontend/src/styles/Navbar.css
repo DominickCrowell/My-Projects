@@ -1,0 +1,250 @@
+.navbar {
+  justify-content: center !important;
+  background-color: #212529;
+  border-radius: 20px;
+  width: 90vw;
+  min-width: 90vw;
+  margin: 20px auto;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  transition: border-radius 0.3s ease;
+}
+
+.navbar-brand {
+  color: #f7b733 !important;
+  font-weight: 700;
+}
+
+.navbar-nav .btn {
+  color: #f7b733 !important;
+  border: 0px;
+  border-color: #f7b733 !important;
+}
+
+.navbar-nav .btn:hover {
+  background-color: #f7b733;
+  color: #212529 !important;
+}
+
+.navbar-nav .btn-dark {
+  background-color: transparent;
+  border-color: transparent;
+  color: #f7b733 !important;
+}
+
+.navbar-nav .btn-dark:hover {
+  background-color: #f7b733;
+  color: #212529 !important;
+}
+
+/* Admin Container and Options Styles */
+.admin-container {
+  position: relative;
+  display: inline-block;
+}
+
+.admin-btn {
+  color: #f7b733 !important;
+  border-color: #f7b733 !important;
+}
+
+.admin-btn:hover {
+  background-color: #f7b733;
+  color: #212529 !important;
+}
+
+.admin-options {
+  display: none;
+  background-color: #212529;
+  z-index: 1000;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-container:hover .admin-options {
+  display: block;
+}
+
+.admin-options .admin-option {
+  display: block;
+  padding: 8px 16px;
+  margin-top: 2px;
+  color: #f7b733 !important;
+  text-decoration: none;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+.admin-options .admin-option:hover {
+  background-color: #f7b733;
+  color: #212529 !important;
+}
+
+/* Logout Button Styles (for non-admins) */
+.logout-hovered {
+  position: relative;
+  overflow: hidden;
+  color: #f7b733 !important;
+  border-color: #f7b733 !important;
+}
+
+.logout-hovered:hover {
+  background-color: #f7b733;
+  color: #212529 !important;
+}
+
+.logout-hovered .hovered {
+  display: none;
+}
+
+.logout-hovered .not-hovered {
+  display: inline;
+}
+
+.logout-hovered:hover .hovered {
+  display: inline;
+}
+
+.logout-hovered:hover .not-hovered {
+  display: none;
+}
+
+/* Toggler Icon */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(247, 183, 51, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 991.98px) {
+  #navbarNav.collapsing,
+  #navbarNav.collapse:not(.show) {
+    transition: none !important;
+    height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  #navbarNav.collapse.show {
+    transition: height 0.35s ease;
+  }
+
+  #navbarNav {
+    background-color: #212529;
+    text-align: center;
+  }
+
+  /* Center the navbar-nav items */
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Center the admin container */
+  .admin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* Integrate admin options into the navbar */
+  .admin-options {
+    width: 100%;
+    display: none;
+    margin-top: 10px; /* Add gap between Admin button and options */
+  }
+
+  .admin-container:hover .admin-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .admin-options .admin-option {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(247, 183, 51, 0.1);
+  }
+
+  .admin-options .admin-option:last-child {
+    border-bottom: none;
+  }
+
+  /* Extend the navbar on hover */
+  .admin-container:hover ~ .navbar,
+  .admin-container:hover {
+    border-radius: 20px 20px 20px 20px;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 992px) {
+  #navbarNav.collapse {
+    height: auto !important;
+    overflow: visible !important;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  /* Keep the navbar-nav items on the right */
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+  }
+
+  .navbar-nav .nav-item {
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  /* Admin container */
+  .admin-container {
+    display: inline-block;
+    width: auto;
+  }
+
+  /* Dropdown for desktop view */
+  .admin-options {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .admin-options .admin-option {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid rgba(247, 183, 51, 0.1);
+  }
+
+  .admin-options .admin-option:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    width: 95% !important;
+    margin-top: 5px;
+  }
+}

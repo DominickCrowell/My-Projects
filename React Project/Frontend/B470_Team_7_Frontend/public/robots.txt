@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brightenup.netlify.app/sitemap.xml
