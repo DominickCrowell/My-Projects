@@ -1,0 +1,89 @@
+/* Container for the star rating */
+.star-rating-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Star container */
+.star-container {
+  display: flex;
+}
+
+/* Star styling */
+.star {
+  font-size: 1.2rem;
+  color: black;
+  cursor: pointer;
+  transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease;
+  line-height: 1;
+}
+
+/* Rating text (e.g., "4.0 ★") */
+.rating-text {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Total ratings text (e.g., "(5 ratings)") */
+.total-ratings {
+  font-size: 14px;
+  color: #888;
+  margin-left: 4px;
+}
+
+/* Selected glow (yellow/gold for unrated posts) */
+.star.selected {
+  color: gold;
+  text-shadow: 0 0 6px gold, 0 0 10px #ffcc00;
+}
+
+/* Rated glow (green for posts the user has rated) */
+.star.rated {
+  color: limegreen;
+  text-shadow: 0 0 6px limegreen, 0 0 10px #32cd32;
+}
+
+/* Spinning animation when rated */
+.star.spinning {
+  animation: star-glow 1s ease-in-out;
+}
+
+@keyframes star-glow {
+  0% {
+      transform: scale(1);
+      text-shadow: 0 0 5px gold;
+  }
+  50% {
+      transform: scale(1.2);
+      text-shadow: 0 0 10px #ffcc00;
+  }
+  100% {
+      transform: scale(1);
+      text-shadow: 0 0 5px gold;
+  }
+}
+
+/* Floating rating change indicator */
+.floating-plus {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: gold;
+  font-size: 1rem;
+  animation: float-up 1s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes float-up {
+  0% {
+      opacity: 1;
+      transform: translateX(-50%);
+  }
+  100% {
+      opacity: 0;
+      transform: translateX(-50%) translateY(-20px);
+  }
+}

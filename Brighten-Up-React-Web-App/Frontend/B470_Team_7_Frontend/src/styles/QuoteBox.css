@@ -1,0 +1,226 @@
+/* QuoteBox.css */
+
+/* Ensure quote-stats aligns children properly */
+.quote-stats {
+  display: flex;
+  justify-content: space-between; /* Push them to opposite ends */
+  align-items: center; /* Align vertically on the same axis */
+  padding: 0.5rem 0;
+  flex-wrap: wrap;
+}
+
+.quote-header {
+  padding-top: 60px;
+}
+
+/* Star rating container */
+.star-rating {
+  display: flex;
+  align-items: center; /* Align stars and rating text vertically */
+  gap: 0.5rem; /* Add space between stars and rating text */
+}
+
+/* Star styling */
+.star {
+  font-size: 1.2rem; /* Reduce star size to better match text */
+  color: var(--star-color); /* Use custom property */
+  cursor: pointer;
+  transition: color 0.2s ease, text-shadow 0.2s ease, transform 0.2s ease;
+  line-height: 1; /* Prevent stars from affecting vertical alignment */
+}
+
+/* Rating text (e.g., "4.0 * (1 rating)") */
+.star-rating span {
+  font-size: 0.9rem; /* Match the font size of the author for consistency */
+  color: var(--quote-secondary-text); /* Use custom property */
+  line-height: 1; /* Ensure consistent vertical alignment */
+}
+
+/* Author styling */
+.quote-author {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 0.9rem; /* Match the rating text size */
+  color: var(--quote-secondary-text); /* Use custom property */
+  line-height: 1; /* Ensure consistent vertical alignment */
+}
+
+/* Rest of the existing styles remain unchanged */
+.quote-content {
+  display: flex;
+  justify-content: center; /* Center the quote content */
+  padding: 1rem 0; /* Add some vertical padding */
+}
+
+.quote-text-wrapper {
+  display: inline-flex;
+  align-items: center; /* Vertically align the quote marks with the text */
+}
+
+.quote-text {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: var(--quote-text); /* Apply the theme color */
+}
+
+.quote-text-wrapper {
+  display: inline-flex;
+  align-items: center; /* Vertically align the quote marks with the text */
+}
+
+.quote-text {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: var(--quote-text); /* #333 in light mode, #f7b733 in dark mode */
+}
+
+.opening-quote-mark {
+  font-style: italic;
+  font-weight: 900; /* Bolder */
+  font-size: 2rem; /* Larger */
+  line-height: 1; /* Adjust line height for better alignment */
+  margin-right: 0.2rem; /* Small space between mark and text */
+  color: var(--quote-text); /* Match the quote text color */
+}
+
+.closing-quote-mark {
+  font-style: italic;
+  font-weight: 900; /* Bolder */
+  font-size: 2rem; /* Larger */
+  line-height: 1; /* Adjust line height for better alignment */
+  margin-left: 0.2rem; /* Small space between mark and text */
+  color: var(--quote-text); /* Match the quote text color */
+}
+
+.quote-box {
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: var(--quote-box-bg); /* Use custom property */
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  z-index: 1;
+  min-width: 450px;
+  min-height: 80px;
+}
+
+/* Hover elevation effect */
+.quote-box:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Black main border */
+.quote-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid var(--quote-border-main); /* Use custom property */
+  border-radius: 1rem;
+  z-index: -2;
+}
+
+/* Gold offset border */
+.quote-box::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid var(--quote-border-offset); /* Use custom property */
+  border-radius: 1rem;
+  z-index: -1;
+}
+
+/* Remove unused blockquote styles */
+.quote-box .blockquote-footer {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: var(--quote-secondary-text); /* Use custom property */
+}
+
+/* Remove this since we're styling star-rating differently */
+.quote-box .star-rating {
+  margin-top: 0; /* Remove the margin-top */
+}
+
+/* Hover or selected glow */
+.star.spinning {
+  animation: star-glow 1s ease-in-out;
+}
+
+@keyframes star-glow {
+  0% {
+    transform: scale(1);
+    text-shadow: 0 0 5px gold;
+  }
+  50% {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #ffcc00;
+  }
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 5px gold;
+  }
+}
+
+/* Floating rating change indicator */
+.floating-plus {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: gold;
+  font-size: 1rem;
+  animation: float-up 1s ease forwards;
+  pointer-events: none;
+}
+
+@keyframes float-up {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+  }
+}
+
+/* Media query for very small screens (500px or less) */
+@media (max-width: 500px) {
+  .quote-box {
+    min-width: 400px; /* Reduce min-width to fit smaller screens */
+  }
+
+  .container {
+    min-width: 400px; /* Reduce min-width to fit smaller screens */
+  }
+}
+
+/* Media query for very small screens (430px or less) */
+@media (max-width: 430px) {
+  .quote-box {
+    min-width: 350px; /* Reduce min-width to fit smaller screens */
+  }
+
+  .container {
+    min-width: 350px; /* Reduce min-width to fit smaller screens */
+  }
+}
+
+/* Media query for very small screens (375px or less) */
+@media (max-width: 375px) {
+  .quote-box {
+    min-width: 300px; /* Reduce min-width to fit smaller screens */
+  }
+
+  .container {
+    min-width: 300px; /* Reduce min-width to fit smaller screens */
+  }
+}

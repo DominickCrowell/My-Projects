@@ -1,0 +1,24 @@
+.theme-toggle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    background-color:#212529; 
+    color: #f7b733;
+    font-size: 1.2rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1002; /* Above other elements */
+}
+
+.theme-toggle-button.visible {
+    opacity: 1;
+}
+
+.theme-toggle-button.hidden {
+    opacity: 0;
+    pointer-events: none; /* Prevent clicks when hidden */
+}
